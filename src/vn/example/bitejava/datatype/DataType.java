@@ -1,20 +1,20 @@
 package vn.example.bitejava.datatype;
 
 /**
- * Class giới thiệu những kiểu dữ liệu trong java
+ * Class giới thiệu những kiểu dữ liệu nguyên thuỷ trong java
  */
 public class DataType {
 
     public static void main(String[] args) {
         // Có 8 kiểu dữ liệu nguyên thuỷ trong java (primitive data)
-        byte aByte;	        //  1 byte  Stores whole numbers from -128 to 127
+        byte aByte;            //  1 byte  Stores whole numbers from -128 to 127
         short aShort;       //  2 bytes Stores whole numbers from -32,768 to 32,767
         int aInt;           //  4 bytes	Stores whole numbers from -2,147,483,648 to 2,147,483,647
         long aLong;         //  8 bytes	Stores whole numbers from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
-        float aFloat;	    //  4 bytes	Stores fractional numbers. Sufficient for storing 6 to 7 decimal digits
-        double aDouble;     //	8 bytes	Stores fractional numbers. Sufficient for storing 15 decimal digits
+        float aFloat;        //  4 bytes	Stores fractional numbers. Sufficient for storing 6 to 7 decimal digits
+        double aDouble;     //	8 bytes	Stores fractional numbers. Sufficient for storing
         boolean aBoolean;   //	1 bit	Stores true or false values. A bit is considered to be the smallest unit of data measurement (0 or 1)
-        char	aChar;      //  2 bytes	Stores a single character/letter or ASCII values
+        char aChar;      //  2 bytes	Stores a single character/letter or ASCII values
 
         System.out.println("Ví dụ về các kiểu dữ liệu trong JAVA");
         System.out.println("============================================================");

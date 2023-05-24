@@ -2,6 +2,7 @@ package vn.example.bitejava.operators.logical;
 
 public class LogicalOperators {
 
+    // Toán tử logic
     public static void main(String[] args) {
         int x = 5;
         System.out.println("Toán tử && trả về true khi cả 2 mệnh đề đều đúng");

@@ -25,7 +25,7 @@ public class AssignmentOperators {
         // 2 =        10
         // 3 =     &  11
         // -------------
-        //            10 = 2 (In decimal)
+        //            10 = 2 (In decimal) 2 là số mà dùng để viết
         System.out.println("Toán tử &=: " + x);
         x = 2;
         x |= 3;
