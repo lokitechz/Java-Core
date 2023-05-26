@@ -4,7 +4,6 @@ public class Main {
     // Trước phiên bản 1.7 thì có thể chạy ứng dụng java mà không cần phương thức main
     // Sử dụng static block
     public static void main(String[] args) {
-        System.out.println("Hello world!");
     }
 
 //    class StaticInitializationBlock{
