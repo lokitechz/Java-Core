@@ -1,4 +1,4 @@
-package vn.example.bitejava.datatype;
+package vn.example.bitejava.decisionmaking;
 
 import java.util.Scanner;
 
