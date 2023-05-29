@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class MenuSample {
 
+    // Biến global
     static Scanner sc = new Scanner(System.in);
 
     public static void main(String[] args) {
@@ -25,7 +26,7 @@ public class MenuSample {
                     squareTriangle();
                     break;
                 case 3:
-                    System.out.println("Chọn 3");
+                    isoscelesTriangle();
                     break;
                 default:
                     return;
@@ -50,13 +51,14 @@ public class MenuSample {
         }
     }
 
+    // In ra các loại tam giác
     private static void squareTriangle() {
-        System.out.print("Hãy nhập vào chiều dài: ");
+        System.out.print("Hãy nhập vào kích thước: ");
         int size = sc.nextInt();
         // Góc vuông bên trái
         System.out.println("Top-left corner triangle:");
-        for (int i = 1; i <= size; i++) {
-            for (int j = 1; j <= i; j++) {
+        for (int row = 1; row <= size; row++) {
+            for (int col = 1; col <= row; col++) {
                 System.out.print("*");
             }
             System.out.println();
@@ -103,6 +105,24 @@ public class MenuSample {
                 }
             }
             System.out.println();
+        }
+    }
+
+    private static void isoscelesTriangle() {
+        System.out.print("Hãy nhập vào chiều cao tam giác cân: ");
+        int size = sc.nextInt();
+        // Lặp qua các dòng
+        for (int row = 1; row <= size; row++) {
+            //
+            for (int space = 1; space <= size - row; space++) {
+                System.out.print(" ");
+            }
+
+            for (int col = 1; col <= 2 * row - 1; col++) {
+                System.out.print("*");
+            }
+
+            System.out.println();  // Move to the next line
         }
     }
 
